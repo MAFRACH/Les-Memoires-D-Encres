@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Mémoires d'Encrés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Les Mémoires d'Encrés</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#activites">Activités</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#adhesion">Adhésion</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur le site de l'association Les Mémoires d'Encrés. Nous nous consacrons à la promotion et à la préservation des traditions du tatouage culturel à travers le monde.</p>
+            <img src="tattoo.jpg" alt="Tatouage traditionnel">
+        </section>
+        <section id="apropos">
+            <h2>À propos</h2>
+            <p>L'association Les Mémoires d'Encrés a été fondée pour préserver les traditions du tatouage culturel et éduquer le public sur leur importance historique et culturelle.</p>
+            <h3>Membres du bureau</h3>
+            <ul>
+                <li>Présidente: Maeva Marié</li>
+                <li>Vice-Président: François Morillon</li>
+                <li>Secrétaire et Trésorière: Rachel Leleu</li>
+            </ul>
+        </section>
+        <section id="activites">
+            <h2>Activités</h2>
+            <p>Nous organisons des événements, ateliers, séminaires, et expositions pour promouvoir le tatouage traditionnel.</p>
+        </section>
+        <section id="galerie">
+            <h2>Galerie</h2>
+            <p>Découvrez nos photos et vidéos des tatouages traditionnels et de nos événements.</p>
+        </section>
+        <section id="adhesion">
+            <h2>Adhésion</h2>
+            <p>Rejoignez notre association pour soutenir notre mission et bénéficier de nombreux avantages.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour toute question, n'hésitez pas à nous contacter.</p>
+            <form action="submit_form.php" method="post">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p>Adresse: <div 26="" rue="" des="" Bruyeres="" 76220="" Avesnes="" en="" Bray=""></div></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Les Mémoires d'Encrés. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
